@@ -13,6 +13,8 @@ namespace practica6
             Console.WriteLine("Введите значение x = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
+            double F = 2*Math.Cos(x);
+
         }
     }
 }
