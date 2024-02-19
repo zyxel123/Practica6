@@ -10,6 +10,9 @@ namespace practica6
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите значение x = ");
+            string s = Console.ReadLine();
+            double x = Convert.ToDouble(s);
         }
     }
 }
